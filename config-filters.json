@@ -1,0 +1,20 @@
+{
+  "steps": {
+    "1": {
+      "filter": "filter.js",
+      "params": [
+        "<extra_param_1>",
+        "<extra_param_2>"
+      ],
+      "next": "2"
+    },
+    "2": {
+      "filter": "second.js",
+      "params": [
+        "<extra_param_1>",
+        "<extra_param_2>"
+      ],
+      "next": "3"
+    }
+  }
+}
